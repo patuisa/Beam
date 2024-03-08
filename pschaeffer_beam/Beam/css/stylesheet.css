@@ -1,0 +1,90 @@
+/* Schriftarten */
+@font-face {
+    font-family: "Slab";
+    src: url("../fonts/RobotoSlab-Light.ttf") format("truetype");
+}
+
+@font-face {
+    font-family: "Medium";
+    src: url("../fonts/Roboto-Medium.ttf") format("truetype");
+}
+
+@font-face {
+    font-family: "Light";
+    src: url("../fonts/Roboto-Light.ttf") format("truetype");
+}
+
+@font-face {
+    font-family: "Bold";
+    src: url("../fonts/Roboto-Bold.ttf") format("truetype");
+}
+
+/* Globale Stile */
+body {
+    background-color: #ccd6da;
+    color: #606465;
+    font-size: 1rem;
+    font-family: "Light", "Arial", "Sans-Serif";
+    line-height: 1.75rem;
+}
+
+header {
+    text-align: center;
+}
+
+footer {
+    text-align: right;
+    font-family: "Medium";
+    font-size: 0.75rem;
+}
+
+/* Überschriften */
+h2, h3 {
+    font-family: "Slab";
+}
+
+h2 {
+    font-size: 1.5rem;
+}
+
+h3 {
+    font-size: 1.25rem;
+}
+
+/* Absätze und Text */
+p span {
+    color: #d4004a;
+    font-style: italic;
+    font-family: "Medium";
+}
+
+span {
+    font-family: "Bold";
+}
+
+/* Listen */
+li {
+    list-style-image: url("../img/bullet.png");
+}
+
+/* Klassen */
+.Zentriert {
+    text-align: center;
+}
+
+.Job {
+    text-transform: uppercase;
+    font-size: 0.75rem;
+}
+
+.rot {
+    color: #d4004a;
+}
+
+.grün {
+    color: #60bf00;
+}
+
+.blau {
+    color: #0095c0;
+}
